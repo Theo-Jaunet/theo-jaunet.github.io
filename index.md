@@ -1,8 +1,7 @@
-## Welcome to GitHub Pages
+## Who am I ?
 
-You can use the [editor on GitHub](https://github.com/Theo-Jaunet/aboutme/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+I am a first year Ph.D student in the LIRIS laboratory whithin the teams SICAL and Imagine, where my advisors are Christian Wolf, and Romain Vuillemot. My reasharch intrests are broadly in Visualization, Machine learning and precisely, interpreting, diagnosing, and improving deep learning models through visualization.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
 

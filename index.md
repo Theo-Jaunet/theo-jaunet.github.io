@@ -10,4 +10,5 @@ My research interest is broadly how visualization can help, interpreting, unders
 
 ### Transeparency and Explicability for Machine Learning
 
-
+This thesis purpose is to produce new tools to help experts and non-experts understand deep learning models.
+Recent contributions in deep learning, despite producing state of the art performance, are increasingly more complex. Such complexy makes them hard to be developped, debugged and interpretable. Moreover, in order to be widely accepted, those models decisions must explainable, to highlight bias in data, but also help non-experts understand if the model decisions can be trusted or not.

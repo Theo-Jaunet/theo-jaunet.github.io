@@ -8,7 +8,9 @@ My research interest is broadly how visualization can help, interpreting, unders
 
 ## Thesis 01/09/2018 - xx/xx/2021
 
-### Transeparency and Explicability for Machine Learning
+### Transparency and Explainability for Machine Learning
 
-This thesis purpose is to produce new tools to help experts and non-experts understand deep learning models.
-Recent contributions in deep learning, despite producing state of the art performance, are increasingly more complex. Such complexy makes them hard to be developped, debugged and interpretable. Moreover, in order to be widely accepted, those models decisions must explainable, to highlight bias in data, but also help non-experts understand if the model decisions can be trusted or not.
+With the help of recent contributions, machine learning methods have been successfully applied in various fields. However, despite great results, these methods lack of transparency and thus cannot be widely deployed. Explainable AI is needed by machine learning experts to help them understand when their models need more training, have biases, need more or less complexity, and therefore produce more stable and rational models in less time.
+In the other hand, non-machine learning experts, also need to know when the model may or may not be reliable in order to build new legislations around AI, and therefore help its democratization.
+During this thesis, my contributions will mainly focused on how data visualizations may helps produce new tools in order to better understand deep learning models.
+

@@ -11,7 +11,7 @@ My research interest is broadly how visualization can help, interpreting, unders
 ### Transparency and Explainability for Machine Learning
 
 
-With the help of recent contributions, machine learning methods have been successfully applied in various fields. However, despite great results, these methods lack of transparency and thus cannot be widely deployed. Explainable AI is needed by machine learning experts to help them understand when their models need more training, have biases, need more or less complexity, and therefore produce more stable and rational models in less time.
+With the help of recent contributions, machine learning methods have been successfully applied in various fields. However, despite great results, these methods lack of transparency and thus cannot be widely deployed. Explainable AI is needed from machine learning experts to help them understand when their models need more training, have biases, need more or less complexity, and therefore produce more stable and rational models in less time.
   On the other hand, non-machine learning experts, also need to know when the model may or may not be reliable in order to build new legislations around AI, and therefore help its democratization.<br/>
 During this thesis, my contributions will mainly be focused on how data visualization may help to better understand deep learning models.
 

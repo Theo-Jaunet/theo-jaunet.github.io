@@ -24,16 +24,14 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
-        
+            
         {% if site.logo %}
           <img style="border-radius:5%" src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
 
-     
-        <p class="view"><a href="{{ site.github.owner_url }}">GitHub</a></p>
-        <p class="view"><a href="mailto:theo.jaunet.sio@gmail.com">Email</a></p>
-         <p class="view"><a href="https://www.linkedin.com/in/theo-jaunet/?locale=en_US">Linkedin</a></p>
+             <p class="view"><img src=" {{site.mail }}" /> <a href="mailto:theo.jaunet.sio@gmail.com">Email</a></p>
+        <p class="view"> <img src=" {{site.github }}" /> <a href="{{ site.github.owner_url }}">GitHub</a></p>
+         <p class="view"> <img src=" {{site.linkdin }}" /> <a href="https://www.linkedin.com/in/theo-jaunet/?locale=en_US">LinkedIn</a></p>
     
         {% if site.show_downloads %}
         <ul class="downloads">

@@ -8,7 +8,7 @@ My research interest is broadly how visualization can help, interpreting, unders
 
 ## Thesis 01/09/2018
 
-My research is funded by a French ministry PhD fellowship since 01/09/2018, and for 3 years. My thesis is also supported by the [M2I Project](https://projet.liris.cnrs.fr/mi2/).
+Since 01/09/2018, my research is funded by a French ministry PhD fellowship, lasting 3 years. My thesis is also supported by the [M2I Project](https://projet.liris.cnrs.fr/mi2/).
 
 
 ### Transparency and Explainability for Machine Learning

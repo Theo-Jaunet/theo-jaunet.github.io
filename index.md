@@ -1,6 +1,6 @@
 ## Hello, I'm Theo Jaunet
 
-I am a Ph.D. student at INSA Lyon - LIRIS laboratory whithin the teams [SICAL](https://liris.cnrs.fr/equipe/sical) and [Imagine](https://liris.cnrs.fr/equipe/imagine), where my advisors are [Romain Vuillemot](http://romain.vuillemot.net/), and [Christian Wolf](https://perso.liris.cnrs.fr/christian.wolf/). 
+I am a Ph.D. student at INSA Lyon - LIRIS laboratory (France) whithin the teams [SICAL](https://liris.cnrs.fr/equipe/sical) and [Imagine](https://liris.cnrs.fr/equipe/imagine), where my advisors are [Romain Vuillemot](http://romain.vuillemot.net/), and [Christian Wolf](https://perso.liris.cnrs.fr/christian.wolf/). 
 
 
 My research interest is broadly how visualization can help, interpreting, understanding, and improving deep learning models.

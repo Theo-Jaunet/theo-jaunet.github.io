@@ -7,3 +7,4 @@ google_analytics: 105697527
 github_icon: github.png
 mail_icon: mail.png
 link_icon: linkdin.png
+permalink:   /:categories/:title/

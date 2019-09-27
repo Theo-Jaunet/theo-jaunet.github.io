@@ -1,0 +1,57 @@
+---
+layout: main
+---
+<article class="article-page">
+    <header class="header-page">
+        <h1 class="page-title">{{page.fulltitle}}</h1>
+        <div class="page-words"><span>{{page.authors }}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+    </header>
+    <div class="page-content">
+        {% if page.teaser %}
+        <div class="page-cover-image" style="max-height: 100%">
+            <!--<figure>-->
+            <img style="height: 100%;" class="page-image" src={{ "/assets/img/" | prepend: site.baseurl | append : page.teaser}} alt="{{page.title}}">
+            {% if page.fig-caption %}
+            <!--<figcaption>{{page.fig-caption}}</figcaption>-->
+            {% endif %}
+            <div style="display:inline-block; text-align: center;width: 100%; margin-top: 10px">
+                {% if page.demo %}
+                <a href={{page.demo}}> Demo, </a>
+                {% endif %}
+                {% if page.paper %}
+                <a href={{page.paper}}> Paper, </a>
+                {% endif %}
+
+                {% if page.git %}
+                <a href={{page.git}}> GitHub</a>
+                {% endif %}
+
+            </div>
+
+            <!--</figure>-->
+        </div> <!-- End Page Cover Image -->
+        {% else %}
+        {% endif %}
+        <div class="wrap-content">
+
+            {{content | markdownify}}
+            <!--      <div class="page-footer">
+                    <div class="page-share">
+                      <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}" title="Share on Twitter" rel="nofollow" target="_blank">Twitter</a>
+                      <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" title="Share on Facebook" rel="nofollow" target="_blank">Facebook</a>
+                      <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" title="Share on Google+" rel="nofollow" target="_blank">Google+</a>
+                    </div>
+                    <div class="page-tag">
+                      {% for tag in page.tags %}
+                        <a href="{{site.baseurl}}/tags#{{tag}}" class="tag">&#35; {{ tag }}</a>
+                      {% endfor %}
+                    </div>
+                         </div>-->
+        </div>
+        {% if page.paper_tease %}
+        <a href={{page.paper}}><img style="height: auto" class="page-image shad" src={{ "/assets/img/" | prepend: site.baseurl | append : page.paper_tease}} alt="{{page.title}}"></a>
+        {% endif %}
+
+        <!-- End Wrap Content -->
+    </div> <!-- End Page Content -->
+</article> <!-- End Article Page -->

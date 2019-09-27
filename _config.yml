@@ -18,7 +18,7 @@ social-linkedin: theo-jaunet
 social-email: theo.jaunet.sio@gmail.com
 
 # Tracker
-analytics: # Google Analytics
+analytics: UA-105697527-2
 
 # Build Settings
 markdown: kramdown

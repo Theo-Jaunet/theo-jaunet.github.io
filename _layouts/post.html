@@ -11,9 +11,7 @@ layout: main
         <div class="page-cover-image" style="max-height: 100%">
             <!--<figure>-->
             <img style="height: 100%;" class="page-image" src={{ "/assets/img/" | prepend: site.baseurl | append : page.teaser}} alt="{{page.title}}">
-            {% if page.fig-caption %}
-            <figcaption>{{page.fig-caption}}</figcaption>
-            {% endif %}
+
             <div style="display:inline-block; text-align: center;width: 100%; margin-top: 10px">
                 {% if page.demo %}
                 <a href={{page.demo}}> Demo, </a>
@@ -27,6 +25,9 @@ layout: main
                 {% endif %}
 
             </div>
+            {% if page.fig-caption %}
+            <div style="display:inline-block;width: 99%;text-align: center;margin-top: 5px"><p style="width: 90%;display: contents">{{page.fig-caption}}</p></div>
+            {% endif %}
 
             <!--</figure>-->
         </div> <!-- End Page Cover Image -->

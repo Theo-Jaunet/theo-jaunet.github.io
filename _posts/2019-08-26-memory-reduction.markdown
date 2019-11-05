@@ -12,6 +12,7 @@ demo: "https://theo-jaunet.github.io/MemoryReduction/"
 teaser: memred_teaser.png
 git: https://github.com/Theo-Jaunet/MemoryReduction
 test: ok
+mention: "Best Submission Prize"
 
 ---
 

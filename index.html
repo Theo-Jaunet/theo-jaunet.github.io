@@ -5,23 +5,21 @@ layout: main
 
 <article class="post" style="border: 1px rgba(0,0,0,0.12) solid;cursor: pointer;position: relative" onclick='window.location ="{{post.url | prepend: site.baseurl}}"'>
     {% if post.img %}
-    <a class="post-thumbnail" style='background-image: url({{"assets/img/" | prepend: site.baseurl | append : post.img }})' href="{{post.url | prepend: site.baseurl}} ">
-    </a>
+    <a class="post-thumbnail" style='background-image: url({{"assets/img/" | prepend: site.baseurl | append : post.img }})' href="{{post.url | prepend: site.baseurl}} "></a>
     {% else %}
     {% endif %}
-        <div class="post-content" style="border: 1px rgba(0,0,0,0.12) solid;">
+    <div class="post-content" style="border: 1px rgba(0,0,0,0.12) solid;">
 
-            {%if post.mention%} <img  style="position: absolute;right: 15px;top:15px;height: 40px" src="/assets/img/icon.png"> {% endif %}
-            <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
-            <p>{{ post.description | strip_html | truncatewords: 25 }}</p>
-            <!--<span class="post-date">{{post.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;—&nbsp;</span>-->
-            <span class="post-words">{{post.conf}} — </span>
-            <span class="post-words">{{post.authors}}</span>
-            {%if post.mention%} <span class="post-words"> — {{post.mention}}</span> {% endif %}
-            <!--<span class="post-words"><a>Demo</a>, <a>Code</a> </span>-->
-        </div>
+        {%if post.mention%} <img style="position: absolute;right: 15px;top:15px;height: 40px" src="/assets/img/icon.png"> {% endif %}
+        <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
+        <p>{{ post.description | strip_html | truncatewords: 25 }}</p>
+        <!--<span class="post-date">{{post.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;—&nbsp;</span>-->
+        <span class="post-words">{{post.conf}} — </span>
+        <span class="post-words">{{post.authors}}</span>
+        {%if post.mention%} <span class="post-words"> — {{post.mention}}</span> {% endif %}
+        <!--<span class="post-words"><a>Demo</a>, <a>Code</a> </span>-->
+    </div>
 </article>
- 
 {% endfor %}
 
 {% include pagination.html %}

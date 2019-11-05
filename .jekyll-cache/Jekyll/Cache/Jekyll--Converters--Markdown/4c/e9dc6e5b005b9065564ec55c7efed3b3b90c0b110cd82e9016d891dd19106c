@@ -1,5 +1,0 @@
-I"^<h2 id="abstract">Abstract</h2>
-
-<p>We built a Doom player AI  using Deep Reinforcement learning. While playing, it builds and updates an inner representation (memory) of what it sees from the game. This memory represents what the AI knows about the game, and is the root of each decision. Reducing the size of the memory , could help the player learning to complete its task and thus lower its training time and energy consumption footprint. In this scenario, the player has to gather items in a specific order: Green Armor   Red Armor   Health Pack   Soul-sphere  , with the shortest path possible.</p>
-
-:ET

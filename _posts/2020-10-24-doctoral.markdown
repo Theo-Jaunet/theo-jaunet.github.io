@@ -1,0 +1,22 @@
+---
+layout: post
+title: "Transparency and Interpretability for Deep Reinforcement Learning"
+fulltitle: "Transparency and Interpretability for Deep Reinforcement Learning: Understanding Decision in Navigation Tasks"
+date: 2020-07-24 13:32:20 +0300
+description: "Deep reinforcement learning applied to automatic navigation recently achieved significant results using simulators and only images as input in contrast to traditional approaches that often rely on sensors such as lidar. Those learning methods have a wide range of applications such as autonomous cars and social robots. However, they can have unexpected behaviors with severe casualties (e.g. a car crash)."
+conf: Vis 2020 Doctoral Colloquium 
+img: dc.jpg
+teaser: dc.jpg 
+fig-caption: # Add figcaption (optional)
+paper: /assets/papers/Doctoral_Colloquium.pdf
+authors: "Theo Jaunet"
+test: ok
+try: ok
+---
+
+ 
+## Abstract   
+
+Deep reinforcement learning applied to automatic navigation recently achieved significant results using simulators and only images as input in contrast to traditional approaches that often rely on sensors such as lidar. Those learning methods have a wide range of applications such as autonomous cars and social robots. However, they can have unexpected behaviors with severe casualties (e.g. a car crash). To understand a decision, analysts must explore its context and link it with millions of deep network parameters which is not feasible by humans in a reasonable time. As a result, the internal process with which those models make a decision remains misunderstood. This hinders the deployment of these algorithms in real-life situations where regulation and accountability require better interpretability and transparency, to ensure their fairness and safety. With visual analytics tools, analysts can observe how models and their inner parameters behave and thus investigate how it converges towards a decision. We report on the progress of this PhD in this area where we build visual analytics tools, designed to study the memory of those models, and future works aiming at closing the loop on insights discovered to improve future models.
+
+

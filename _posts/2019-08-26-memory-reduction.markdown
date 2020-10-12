@@ -14,6 +14,31 @@ git: https://github.com/Theo-Jaunet/MemoryReduction
 test: ok
 mention: "Best Submission Prize"
 
+
+bibtex_first: "@inproceedings{Jaunet:2019,"
+bibtex_end: "}"
+bibtex_content: "author = {Theo Jaunet, Romain Vuillemot, Christian Wolf},
+
+title = {What if we Reduce the Memory of an Artificial Doom Player?},
+
+journal = {Proceedings of the Workshop on Visualization for AI explainability (VISxAI)},
+
+year = {2019},
+
+editors = {Mennatallah El-Assady, Duen Horng (Polo) Chau, Fred Hohman, Adam Perer, Hendrik Strobelt, Fernanda Viégas},
+
+url = {https://theo-jaunet.github.io/MemoryReduction/}
+"
+
+
+
+
+
+
+
+
+
+
 ---
 
 

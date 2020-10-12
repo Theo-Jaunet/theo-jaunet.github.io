@@ -6,11 +6,12 @@ layout: main
         <h1 class="page-title">{{page.fulltitle}}</h1>
         <div class="page-words"><span>{{page.authors }}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
     </header>
-    <div class="page-content">
+    <div class="page-content" style="display: inline-block">
         {% if page.teaser %}
         <div class="page-cover-image" style="max-height: 100%">
             <!--<figure>-->
-            <img style="height: 100%;" class="page-image" src={{ "/assets/img/" | prepend: site.baseurl | append : page.teaser}} alt="{{page.title}}">
+            <img style="height: 100%;" class="page-image" src={{ "/assets/img/" | prepend: site.baseurl | append :
+            page.teaser}} alt="{{page.title}}">
 
             <div style="display:inline-block; text-align: center;width: 100%; margin-top: 10px">
                 {% if page.demo %}
@@ -26,7 +27,8 @@ layout: main
 
             </div>
             {% if page.fig-caption %}
-            <div style="display:inline-block;width: 99%;text-align: center;margin-top: 5px"><p style="width: 90%;display: contents">{{page.fig-caption}}</p></div>
+            <div style="display:inline-block;width: 99%;text-align: center;margin-top: 5px"><p
+                    style="width: 90%;display: contents">{{page.fig-caption}}</p></div>
             {% endif %}
 
             <!--</figure>-->
@@ -50,8 +52,16 @@ layout: main
                          </div>-->
         </div>
         {% if page.paper_tease %}
-        <a href={{page.paper}}><img style="height: auto" class="page-image shad" src={{ "/assets/img/" | prepend: site.baseurl | append : page.paper_tease}} alt="{{page.title}}"></a>
+        <a href={{page.paper}}><img style="height: auto" class="page-image shad" src={{ "/assets/img/" | prepend:
+            site.baseurl | append : page.paper_tease}} alt="{{page.title}}"></a>
         {% endif %}
+
+        {% if page.bibtex_content %}
+        <pre style=" padding: 1.125em;line-height: 1.11;margin-bottom: 0.88em; background-color: #fafafa;border: thin solid #f3f3f3;white-space: pre;
+    counter-reset: line-numbering;word-break: normal"><code><span>{{page.bibtex_first}}</span><span style="padding-left: 20px;display: inline-block">{{page.bibtex_content}}</span>
+<span>{{page.bibtex_end}}</span></code></pre>
+        {% endif %}
+
 
         <!-- End Wrap Content -->
     </div> <!-- End Page Content -->

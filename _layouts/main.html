@@ -6,7 +6,9 @@ layout: default
     <header>
         <div class="about">
             <div class="cover-author-image">
-                <a href="{{site.baseurl}}/"><img src="{{site.baseurl}}/assets/img/{% if site.author-img %}{{site.author-img}}{% endif %}" alt="{{site.author}}"></a>
+                <a href="{{site.baseurl}}/"><img
+                        src="{{site.baseurl}}/assets/img/{% if site.author-img %}{{site.author-img}}{% endif %}"
+                        alt="{{site.author}}"></a>
             </div>
             <div class="author-name">{{site.author}}</div>
             <p>{{site.about-author}}</p>
@@ -15,14 +17,18 @@ layout: default
             <h3 class="contact-title">Contact me</h3>
             <ul>
                 {% if site.social-github %}
-                <li class="github"><a href="http://github.com/{{site.social-github}}" target="_blank"><i class="fa fa-github"></i></a></li>
+                <li class="github"><a href="http://github.com/{{site.social-github}}" target="_blank"><i
+                        class="fa fa-github"></i></a></li>
                 {% endif %}
                 {% if site.social-twitter %}
-                <li><a href="https://twitter.com/{{ site.social-twitter }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="https://twitter.com/{{ site.social-twitter }}" target="_blank"><i class="fa fa-twitter"
+                                                                                               aria-hidden="true"></i></a>
+                </li>
                 {% endif %}
 
                 {% if site.social-linkedin %}
-                <li class="linkedin"><a href="https://in.linkedin.com/in/{{site.social-linkedin}}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                <li class="linkedin"><a href="https://in.linkedin.com/in/{{site.social-linkedin}}" target="_blank"><i
+                        class="fa fa-linkedin"></i></a></li>
                 {% endif %}
                 {% if site.social-email %}
                 <li class="email"><a href="mailto:{{site.social-email}}"><i class="fa fa-envelope-o"></i></a></li>
@@ -41,18 +47,76 @@ layout: default
 <div class="content-box clearfix">
     <div>
         <h1> Hey, I'm Théo Jaunet</h1>
-        <p>I'm a Ph.D. student at <a href="https://liris.cnrs.fr">LIRIS lab</a>, <a href="https://www.insa-lyon.fr/">INSA-Lyon</a> (France) since september 2018, where I'm advised by <a href="http://romain.vuillemot.net/">Romain
-            Vuillemot</a> and <a
-                href="https://perso.liris.cnrs.fr/christian.wolf/">Christian wolf</a>. My research is funded for 3 years by a French ministry Ph.D. fellowship and supported by
+        <p>I'm a Ph.D. student at <a href="https://liris.cnrs.fr">LIRIS lab</a>, <a href="https://www.insa-lyon.fr/">INSA-Lyon</a>
+            (France) since september 2018, where I'm advised by <a href="http://romain.vuillemot.net/">Romain
+                Vuillemot</a> and <a
+                    href="https://perso.liris.cnrs.fr/christian.wolf/">Christian wolf</a>. My research is funded for 3
+            years by a French ministry Ph.D. fellowship and supported by
             the <a href="https://projet.liris.cnrs.fr/mi2/"> M2I project</a>.</p>
     </div>
     <div style="display: block">
         {% if page.test %}
-
+        {{ content }}
         {% else %}
         <h2> Publications</h2>
-        {% endif %}
         {{ content }}
+        <h2> Teaching</h2>
+        <div>
+            <h4>2020</h4>
+            <ul>
+                <li>
+                    <div>
+                        <p style="font-weight: 600"> IA5 - Bio-Inspired Intelligence (Master level)</p>
+                        <p> DQNs module (6 hours) at Lyon 1 University</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <p style="font-weight: 600">ECL MOS 5.5 - Interactive Data Visualization (Master level)
+                        <p> 36 hours at Ecole Centrale Lyon (ECL)</p>
+                    </div>
+                </li>
+                <li>
+                    <p style="font-weight: 600">IA6 - HCI and AI (Master level)</p>
+                    <p> Interpretability of Deep Learning module (8 hours) at Lyon 1 University</p>
+                </li>
+            </ul>
+            <h4>2019</h4>
+            <ul>
+                <li>
+                    <div>
+                        <p style="font-weight: 600"> IA5 - Bio-Inspired Intelligence (Master level)</p>
+                        <p> DQNs module (6 hours) at Lyon 1 University</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <p style="font-weight: 600">ECL MOS 5.5 - Interactive Data Visualization (Master level)
+                        <p> 36 hours at Ecole Centrale Lyon (ECL)</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <p style="font-weight: 600">INF TC - Python (Undergraduate level)
+                        <p> 8 hours at Ecole Centrale Lyon (ECL)</p>
+                    </div>
+                </li>
+            </ul>
+
+            <h4>2018</h4>
+            <ul>
+                <li>
+                    <div>
+                        <p style="font-weight: 600"> DS2 - Data Visualization (Master level)</p>
+                        <p> 20 hours at Lyon 1 University</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        {% endif %}
+
+
     </div>
 
 

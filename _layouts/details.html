@@ -1,0 +1,86 @@
+---
+layout: default
+---
+
+<aside class="sidebar">
+    <header>
+        <div class="about">
+            <div class="cover-author-image">
+                <a href="{{site.baseurl}}/"><img
+                        src="{{site.baseurl}}/assets/img/{% if site.author-img %}{{site.author-img}}{% endif %}"
+                        alt="{{site.author}}"></a>
+            </div>
+            <div class="author-name">{{site.author}}</div>
+            <p>{{site.about-author}}</p>
+        </div>
+        <section class="contact">
+            <h3 class="contact-title">Contact me</h3>
+            <ul>
+                {% if site.social-github %}
+                <li class="github"><a href="http://github.com/{{site.social-github}}" target="_blank"><i
+                        class="fa fa-github"></i></a></li>
+                {% endif %}
+                {% if site.social-twitter %}
+                <li><a href="https://twitter.com/{{ site.social-twitter }}" target="_blank"><i class="fa fa-twitter"
+                                                                                               aria-hidden="true"></i></a>
+                </li>
+                {% endif %}
+
+                {% if site.social-linkedin %}
+                <li class="linkedin"><a href="https://in.linkedin.com/in/{{site.social-linkedin}}" target="_blank"><i
+                        class="fa fa-linkedin"></i></a></li>
+                {% endif %}
+                {% if site.social-email %}
+                <li class="email"><a href="mailto:{{site.social-email}}"><i class="fa fa-envelope-o"></i></a></li>
+                {% endif %}
+            </ul>
+        </section> <!-- End Section Contact -->
+    </header> <!-- End Header -->
+
+    <footer>
+
+        <!--<div class="copyright">-->
+        <!--<p>{{site.time | date: '%Y'}} &copy; {{site.author}}</p>-->
+        <!--</div>-->
+    </footer> <!-- End Footer -->
+</aside> <!-- End Sidebar -->
+
+
+<div class="content-box clearfix">
+    <div>
+        <h1> Hey, I'm Théo Jaunet</h1>
+        <p>I'm a Ph.D. student at <a href="https://liris.cnrs.fr">LIRIS lab</a>, <a href="https://www.insa-lyon.fr/">INSA-Lyon</a>
+            (France) since september 2018, where I'm advised by <a href="http://romain.vuillemot.net/">Romain
+                Vuillemot</a> and <a
+                    href="https://perso.liris.cnrs.fr/christian.wolf/">Christian wolf</a>. My research is funded for 3
+            years by a French ministry Ph.D. fellowship and supported by
+            the <a href="https://projet.liris.cnrs.fr/mi2/"> M2I project</a>. Hence, I am expected to defend my thesis
+            by the end of september 2021
+
+        </p>
+
+
+        <p> This thesis is also supported by <a href="http://hendrik.strobelt.com/"> Hendrik Strobelt</a>, and <a
+                href="https://perso.liris.cnrs.fr/aline.parreau/index.html">Aline Parreau</a> as external advisers by
+            providing annual reviews of my work as
+            a PhD student. </p>
+
+        <div style="text-align: center">
+            <h4 style="text-align: center"> Transparency and Explainability for Machine Learning </h4>
+            <p style="text-align: left">
+                With the emergence of applications of deep learning to our everyday life (e.g. healthcare), interpreting
+                models' decisions is critical for both end-users to be able to build trust on those models and contest
+                decisions, and for domain experts to assess the fairness and reasoning of those decisions. Among those
+                applications, automatic navigation is one the most challenging problems in Computer Science with a wide
+                range of tasks, from finding shortest paths between pairs of points, to efficiently exploring and
+                covering
+                unknown environments, up to complex semantic visual problems ("Where are my keys?"). Addressing
+                such problems is important for modern applications such as autonomous vehicles to improve urban
+                mobility, or
+                social robots.
+            </p>
+        </div>
+    </div>
+
+
+</div>

@@ -1,6 +1,9 @@
 title: Theo Jaunet
 description: > # this means to ignore newlines until "baseurl:"
-  I'm a Ph.D. student at LIRIS lab, INSA-Lyon (France) since september 2018, where I'm advised by Romain Vuillemot and Christian wolf. My research is funded for 3 years by a French ministry Ph.D. fellowship and supported by the M2I project. Hence, I am expected to defend my thesis by the end of september 2021.
+  I'm a Ph.D. student at LIRIS lab, INSA-Lyon (France) since september 2018,
+  where I'm advised by Romain Vuillemot and Christian wolf.
+  My research is funded for 3 years by a French ministry Ph.D. fellowship and supported by the M2I project.
+  Hence, I am expected to defend my thesis by the end of september 2021.
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com

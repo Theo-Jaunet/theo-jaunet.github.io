@@ -1,0 +1,47 @@
+---
+layout: post
+title: "VisQA"
+fulltitle: "VisQA: X-raying Vision and Language Reasoning in Transformers"
+date: 2021-02-24 13:32:20 +0300
+description: "We introduce VisQA, a visual analytics tool that explores the question of reasoning vs. bias exploitation in Visual Question Answering systems."
+img: visqa.png
+fig-caption: "Opening the black box of neural models for vision and language reasoning: given an open-ended question and an image ①, VisQA enables to investigate whether a trained model resorts to reasoning or to bias exploitation to provide its answer. This can be achieved by exploring the behavior of a set of attention heads ②, each producing an attention map ⑤, which manage how different items of the problem relate to each other. Heads can be selected ③, for instance, based on color-coded activity statistics. Their semantics can be linked to language functions derived from dataset-level statistics ④, filtered and compared between different models."
+authors: "Theo Jaunet,Corentin Kervadec,Romain Vuillemot, Grigory Antipov, Moez Baccouche, Christian Wolf"
+conf: Research Report
+demo: "https://visqa.liris.cnrs.fr"
+teaser: visqa.png
+git: https://github.com/Theo-Jaunet/VisQA
+test: ok
+paper: /assets/papers/VisQA.pdf
+
+bibtex_first: "@inproceedings{Jaunet2021visqa,"
+bibtex_end: "}"
+bibtex_content: "author = {Theo Jaunet,Corentin Kervadec,Romain Vuillemot, Grigory Antipov, Moez Baccouche,   and Christian Wolf},
+
+title = {VisQA: X-raying Vision and Language Reasoning in Transformers},
+
+journal = {},
+
+year = {2021},
+"
+
+
+
+
+---
+
+
+## Abstract   
+
+Visual Question Answering systems target answering open-ended textual questions given input images. They are a testbed for learning high-level reasoning with a primary use in HCI, for instance assistance for the visually impaired. Recent research has shown that state-of-the-art models tend to produce answers exploiting biases and shortcuts in the training data, and sometimes do not even look at the input image, instead of performing the required reasoning steps. We present VisQA, a visual analytics tool that
+explores this question of reasoning vs. bias exploitation. It exposes the key element of state-of-the-art neural models --- attention maps in transformers. Our working hypothesis is that reasoning steps leading to model predictions are observable from attention distributions, which are particularly useful for visualization. The design process of VisQA was motivated by well-known bias examples from the fields of deep learning and vision-language reasoning and evaluated in two ways. First, as a result of a collaboration of three fields, machine learning, vision and language reasoning, and data analytics, the work lead to a direct impact on the design and training of a neural model for VQA, improving model performance as a consequence. Second, we also report on the design of VisQA, and a goal-oriented evaluation of VisQA targeting the analysis of a model decision process from multiple experts, providing evidence that it makes the inner workings of models accessible to users.
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+

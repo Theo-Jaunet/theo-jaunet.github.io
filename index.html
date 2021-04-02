@@ -16,6 +16,8 @@ layout: main
         <!--<span class="post-date">{{post.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;—&nbsp;</span>-->
         <span class="post-words">{{post.conf}} — </span>
         <span class="post-words">{{post.authors}}</span>
+
+          {%if post.equal%} <span class="post-words" style="display: inline-block">{{post.equal}}</span>{% endif %}
         {%if post.mention%} <span class="post-words"> — {{post.mention}}</span> {% endif %}
         <!--<span class="post-words"><a>Demo</a>, <a>Code</a> </span>-->
     </div>

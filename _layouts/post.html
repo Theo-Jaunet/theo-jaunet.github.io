@@ -15,14 +15,14 @@ layout: main
 
             <div style="display:inline-block; text-align: center;width: 100%; margin-top: 10px">
                 {% if page.demo %}
-                <a href={{page.demo}}> Demo, </a>
+                <a href={{page.demo}}> <img src="/assets/img/icons/html.png" style="width: 22px;margin-right: 5px"> Demo, </a>
                 {% endif %}
                 {% if page.paper %}
-                <a href={{page.paper}}> Paper, </a>
+                <a href={{page.paper}}> <img src="/assets/img/icons/file.png" style="width: 20px;margin-right: 2px;margin-left: 10px"> Paper, </a>
                 {% endif %}
 
                 {% if page.git %}
-                <a href={{page.git}}> GitHub</a>
+                <a href={{page.git}}> <img src="/assets/img/icons/github-sign.png" style="width: 20px;margin-right: 2px;margin-left: 10px"> GitHub</a>
                 {% endif %}
 
             </div>
@@ -58,7 +58,7 @@ layout: main
 
         {% if page.bibtex_content %}
         <pre style=" padding: 1.125em;line-height: 1.11;margin-bottom: 0.88em; background-color: #fafafa;border: thin solid #f3f3f3;white-space: pre;
-    counter-reset: line-numbering;word-break: normal"><code><span>{{page.bibtex_first}}</span><span style="padding-left: 20px;display: inline-block">{{page.bibtex_content}}</span>
+    counter-reset: line-numbering;word-break: normal;"><code><span>{{page.bibtex_first}}</span><span style="padding-left: 20px;display: inline-block">{{page.bibtex_content}}</span>
 <span>{{page.bibtex_end}}</span></code></pre>
         {% endif %}
 

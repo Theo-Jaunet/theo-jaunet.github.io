@@ -6,7 +6,7 @@ date: 2019-08-26 13:32:20 +0300
 description: "We built Doom player AI using Deep Reinforcement learning. While playing, it builds and updates an inner representation (memory) of the game, its environment. Reducing this memory could help the player learning to complete its task and thus lower both its training time and energy consumption footprint."
 img: memred.png
 fig-caption: # Add figcaption (optional)
-authors: "Theo Jaunet, Romain Vuillemot, Christian Wolf"
+authors: "Théo Jaunet, Romain Vuillemot, Christian Wolf"
 conf: VISXAI 2019
 demo: "https://theo-jaunet.github.io/MemoryReduction/"
 teaser: memred_teaser.png

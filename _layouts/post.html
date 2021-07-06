@@ -13,23 +13,25 @@ layout: main
             <img style="height: 100%;" class="page-image" src={{ "/assets/img/" | prepend: site.baseurl | append :
             page.teaser}} alt="{{page.title}}">
 
-            <div style="display:inline-block; text-align: center;width: 100%; margin-top: 10px">
-                {% if page.demo %}
-                <a href={{page.demo}}> <img src="/assets/img/icons/html.png" style="width: 22px;margin-right: 5px"> Demo, </a>
-                {% endif %}
-                {% if page.paper %}
-                <a href={{page.paper}}> <img src="/assets/img/icons/file.png" style="width: 20px;margin-right: 2px;margin-left: 10px"> Paper, </a>
-                {% endif %}
-
-                {% if page.git %}
-                <a href={{page.git}}> <img src="/assets/img/icons/github-sign.png" style="width: 20px;margin-right: 2px;margin-left: 10px"> GitHub</a>
-                {% endif %}
-
-            </div>
-            {% if page.fig-caption %}
+                        {% if page.fig-caption %}
             <div style="display:inline-block;width: 99%;text-align: center;margin-top: 5px"><p
                     style="width: 90%;display: contents">{{page.fig-caption}}</p></div>
             {% endif %}
+            
+            <div style="display:inline-block; text-align: center;width: 100%; margin-top: 10px;font-size: 16pt">
+                {% if page.demo %}
+                <a href={{page.demo}}> <img src="/assets/img/icons/html.png" style="width: 25px;margin-right: 5px"> Demo</a> <span style="color: black">  - </span>
+                {% endif %}
+                {% if page.paper %}
+                <a href={{page.paper}}> <img src="/assets/img/icons/file.png" style="width: 23px;margin-right: 2px;margin-top: -2px;margin-left: 10px"> Paper</a> <span style="color: black">  - </span>
+                {% endif %}
+
+                {% if page.git %}
+                <a href={{page.git}}> <img src="/assets/img/icons/github-sign.png" style="width: 23px;margin-top: -3px;margin-right: 2px;margin-left: 10px"> GitHub</a>
+                {% endif %}
+
+            </div>
+
 
             <!--</figure>-->
         </div> <!-- End Page Cover Image -->

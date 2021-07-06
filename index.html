@@ -14,7 +14,7 @@ layout: main
         <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
         <p>{{ post.description | strip_html | truncatewords: 25 }}</p>
         <!--<span class="post-date">{{post.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;—&nbsp;</span>-->
-        <span class="post-words">{{post.conf}} — </span>
+        <span class="post-words" style="font-weight: 600">{{post.conf}} — </span>
         <span class="post-words">{{post.authors}}</span>
 
           {%if post.equal%} <span class="post-words" style="display: inline-block">{{post.equal}}</span>{% endif %}

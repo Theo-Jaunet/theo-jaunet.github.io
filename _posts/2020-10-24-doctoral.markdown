@@ -9,7 +9,7 @@ img: dc.jpg
 teaser: dc.jpg 
 fig-caption: # Add figcaption (optional)
 paper: /assets/papers/Doctoral_Colloquium.pdf
-authors: "Theo Jaunet"
+authors: "Théo Jaunet"
 test: ok
 try: ok
 ---

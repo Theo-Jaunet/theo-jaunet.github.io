@@ -45,6 +45,8 @@ layout: default
     </footer> <!-- End Footer -->
 </aside> <!-- End Sidebar -->
 <div class="content-box clearfix">
+    {% if page.test %}
+            {% else %}
     <div>
         <h1> Hey, I'm Théo Jaunet</h1>
         <p>I'm a Ph.D. student at <a href="https://liris.cnrs.fr">LIRIS lab</a>, <a href="https://www.insa-lyon.fr/">INSA-Lyon</a>
@@ -52,8 +54,12 @@ layout: default
                 Vuillemot</a> and <a
                     href="https://perso.liris.cnrs.fr/christian.wolf/">Christian Wolf</a>. My research is funded for 3
             years by a French ministry Ph.D. fellowship and supported by
-            the <a href="https://projet.liris.cnrs.fr/mi2/"> M2I project</a>. More information <a href="https://theo-jaunet.github.io/thesis/">here</a>.</p>
+            the <a href="https://projet.liris.cnrs.fr/mi2/"> M2I project</a>. More information <a
+                    href="https://theo-jaunet.github.io/thesis/">here</a>.</p>
+
+        <p style="font-weight: 700;text-align: center; font-size: 15pt" > I am currently looking for a post-doc in visualization for XAI! </p>
     </div>
+            {% endif %}
     <div style="display: block">
         {% if page.test %}
         {{ content }}

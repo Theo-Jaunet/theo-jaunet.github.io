@@ -7,7 +7,7 @@ description: "A visual analytics interface to interpret the internal memory of a
 img: drlvizT.jpg
 teaser: drlviz_teaser.png
 fig-caption: "In the trajectory ① and stacked area chart of actions distribution ② we can notice two intervals during which the agent only turned right. In those intervals, the agent came twice in the same dead-end ③. In hidden states a dimension was blue when the agent sees the red armor before the green armor, and then remained orange until when saw the green armor ④. Another dimension was active as the agent first saw the HP, and remained active until it gathered it. Two hidden state elements that change as the agent gathered the health pack and then kept their values until the end of the episode ⑥. Using saliency maps ⑦, we can observe that the agent ignore the soul-sphere until it gathered the 3 firsts items ⑧. Finally, some clusters in the t-SNE projection seem to corresponds to the agent’s objectives e. g., gathering the green armor ⑨."
-authors: "Theo Jaunet, Romain Vuillemot, Christian Wolf"
+authors: "Théo Jaunet, Romain Vuillemot, Christian Wolf"
 conf: EuroVis 2020
 demo: https://sical.github.io/drlviz/
 paper_tease: drlviz_paper.png

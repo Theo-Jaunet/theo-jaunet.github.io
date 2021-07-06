@@ -17,7 +17,7 @@ paper: https://openreview.net/forum?id=hARFKEECBD_
 
 bibtex_first: "@inproceedings{Kervadec2021transferable,"
 bibtex_end: "}"
-bibtex_content: "author = {Corentin Kervadec, Theo Jaunet, Grigory Antipov, Moez Baccouche, Romain Vuillemot,  and Christian Wolf},
+bibtex_content: "author = {Corentin Kervadec, Theo Jaunet, Grigory Antipov, Moez Baccouche, Romain Vuillemot, and Christian Wolf},
 
 title = {How Transferable are Reasoning Patterns in VQA?},
 

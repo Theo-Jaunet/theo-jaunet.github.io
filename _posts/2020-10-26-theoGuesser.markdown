@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "Théo Guesser"
-fulltitle: "What if we Reduce the Memory of an Artificial Doom Player?"
+fulltitle: "Théo Guesser"
 date: 2020-10-06 13:32:20 +0300
 description: " We propose new techniques for the visualization of the sim2real gap, which provide insights into the difference in performance obtained when neural networks are applied out of distribution (OOD) in real settings."
 img: theo_teaser.jpg
 fig-caption: # Add figcaption (optional)
-authors: "Theo Jaunet, Romain Vuillemot, Christian Wolf"
+authors: "Théo Jaunet, Romain Vuillemot, Christian Wolf"
 conf: VISXAI 2020
 demo: "https://theo-jaunet.github.io/theo-guesser/"
 teaser: theo_teaser.jpg

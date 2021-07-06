@@ -4,9 +4,13 @@ title: "VisQA"
 fulltitle: "VisQA: X-raying Vision and Language Reasoning in Transformers"
 date: 2021-02-24 13:32:20 +0300
 description: "We introduce VisQA, a visual analytics tool that explores the question of reasoning vs. bias exploitation in Visual Question Answering systems."
+
 img: visqa.png
 fig-caption: "Opening the black box of neural models for vision and language reasoning: given an open-ended question and an image ①, VisQA enables to investigate whether a trained model resorts to reasoning or to bias exploitation to provide its answer. This can be achieved by exploring the behavior of a set of attention heads ②, each producing an attention map ⑤, which manage how different items of the problem relate to each other. Heads can be selected ③, for instance, based on color-coded activity statistics. Their semantics can be linked to language functions derived from dataset-level statistics ④, filtered and compared between different models."
-authors: "Theo Jaunet,Corentin Kervadec,Romain Vuillemot, Grigory Antipov, Moez Baccouche, Christian Wolf"
+
+authors: "Théo Jaunet*, Corentin Kervadec*, Grigory Antipov, Moez Baccouche, Romain Vuillemot, Christian Wolf"
+equal: " * Both authors contributed equally"
+
 conf: Arxiv Report
 demo: "https://visqa.liris.cnrs.fr"
 teaser: visqa.png
@@ -16,7 +20,7 @@ paper: https://arxiv.org/pdf/2104.00926.pdf
 
 bibtex_first: "@inproceedings{Jaunet2021visqa,"
 bibtex_end: "}"
-bibtex_content: "author = {Theo Jaunet,Corentin Kervadec,Romain Vuillemot, Grigory Antipov, Moez Baccouche,   and Christian Wolf},
+bibtex_content: "author = {Theo Jaunet, Corentin Kervadec, Romain Vuillemot, Grigory Antipov, Moez Baccouche, and Christian Wolf},
 
 title = {VisQA: X-raying Vision and Language Reasoning in Transformers},
 

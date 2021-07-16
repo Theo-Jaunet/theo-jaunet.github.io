@@ -11,7 +11,7 @@ fig-caption: "Opening the black box of neural models for vision and language rea
 authors: "Théo Jaunet*, Corentin Kervadec*, Grigory Antipov, Moez Baccouche, Romain Vuillemot, Christian Wolf"
 equal: " * Both authors contributed equally"
 
-conf: Arxiv Report
+conf: VIS 2021
 demo: "https://visqa.liris.cnrs.fr"
 teaser: visqa.png
 git: https://github.com/Theo-Jaunet/VisQA

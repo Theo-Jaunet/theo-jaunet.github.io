@@ -15,7 +15,7 @@ test: ok
 
 bibtex_first: "@inproceedings{Jaunet:2020,"
 bibtex_end: "}"
-bibtex_content: "author = {Theo Jaunet, Romain Vuillemot, Christian Wolf},
+bibtex_content: "author = {Jaunet, Theo and Vuillemot, Romain and  Wolf, Christian},
 
 title = {Theo guesser},
 

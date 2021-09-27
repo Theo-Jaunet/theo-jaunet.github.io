@@ -17,7 +17,7 @@ mention: "Best Submission Prize"
 
 bibtex_first: "@inproceedings{Jaunet:2019,"
 bibtex_end: "}"
-bibtex_content: "author = {Theo Jaunet, Romain Vuillemot, Christian Wolf},
+bibtex_content: "author = {Jaunet, Theo, and  Vuillemot, Romain and  Wolf, Christian},
 
 title = {What if we Reduce the Memory of an Artificial Doom Player?},
 

@@ -20,8 +20,7 @@ paper: https://arxiv.org/pdf/2104.00926.pdf
 
 bibtex_first: "@inproceedings{Jaunet2021visqa,"
 bibtex_end: "}"
-bibtex_content: "author = {Theo Jaunet, Corentin Kervadec, Romain Vuillemot, Grigory Antipov, Moez Baccouche, and Christian Wolf},
-
+bibtex_content: "author = {Jaunet, Theo and Kervadec, Corentin and Antipov, Grigory and Baccouche, Moez and Vuillemot, Romain and Wolf, Christian},
 title = {VisQA: X-raying Vision and Language Reasoning in Transformers},
 
 journal = {{arXiv preprint arXiv:2104.00926.},

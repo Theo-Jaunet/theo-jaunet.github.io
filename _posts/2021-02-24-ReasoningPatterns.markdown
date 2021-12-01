@@ -8,7 +8,7 @@ img: transferPatterns.png
 fig-caption: # Add figcaption (optional)
 authors: "Corentin Kervadec*, Théo Jaunet*, Grigory Antipov, Moez Baccouche, Romain Vuillemot,  Christian Wolf"
 equal: " * Both authors contributed equally"
-conf: CVPR2021
+conf: CVPR 2021
 demo: "https://reasoningpatterns.github.io/"
 teaser: transferPatterns.png
 git: https://github.com/reasoningpatterns/reasoningpatterns.github.io

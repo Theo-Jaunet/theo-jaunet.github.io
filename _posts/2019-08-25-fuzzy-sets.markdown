@@ -7,7 +7,7 @@ description: "Reasoning over spatial regions is frequent in everyday life. For i
 img: fuzzy.png
 fig-caption: "Intersection of geo-sets with variability (e. g., time) captured by the membership function µS (e)."
 authors: "Romain Vuillemot, Liqun Liu, Théo Jaunet"
-conf: SetVa’19 Workshop.
+conf: SetVa @ IEEE Vis 2019
 teaser: fuzzy.png
 paper: http://romain.vuillemot.net/publis/2019-setva-fuzzy-geoset.pdf
 test: ok

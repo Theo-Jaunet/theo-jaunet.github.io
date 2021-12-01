@@ -7,7 +7,7 @@ description: " We propose new techniques for the visualization of the sim2real g
 img: theo_teaser.jpg
 fig-caption: # Add figcaption (optional)
 authors: "Théo Jaunet, Romain Vuillemot, Christian Wolf"
-conf: VISXAI 2020
+conf: VISXAI @ IEEE Vis 2020
 demo: "https://theo-jaunet.github.io/theo-guesser/"
 teaser: theo_teaser.jpg
 git: https://github.com/Theo-Jaunet/theo-guesser

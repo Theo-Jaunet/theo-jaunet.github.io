@@ -10,10 +10,10 @@ fig-caption: " Using Sim2RealViz, the Sim2Real gap of a Data Augmentation model 
 
 authors: "Théo Jaunet, Guillaume Bono, Romain Vuillemot, Christian Wolf"
 
-conf: research report
+conf: XAI4Debugging @ NeurIPS 2021
 
 teaser: sim2realViz.png
-git: https://github.com/sim2realviz/sim2real
+git: https://github.com/Theo-Jaunet/sim2realViz
 test: ok
 paper: https://arxiv.org/pdf/2109.11801.pdf
 
@@ -36,10 +36,7 @@ year = {2021},
 
 ## Abstract
 
-Visual Question Answering systems target answering open-ended textual questions given input images. They are a testbed for learning high-level reasoning with a primary use in HCI, for instance assistance for the visually impaired. Recent research has shown that state-of-the-art models tend to produce answers exploiting biases and shortcuts in the training data, and sometimes do not even look at the input image, instead of performing the required reasoning steps. We present VisQA, a visual analytics tool that
-explores this question of reasoning vs. bias exploitation. It exposes the key element of state-of-the-art neural models --- attention maps in transformers. Our working hypothesis is that reasoning steps leading to model predictions are observable from attention distributions, which are particularly useful for visualization. The design process of VisQA was motivated by well-known bias examples from the fields of deep learning and vision-language reasoning and evaluated in two ways. First, as a result of a collaboration of three fields, machine learning, vision and language reasoning, and data analytics, the work lead to a direct impact on the design and training of a neural model for VQA, improving model performance as a consequence. Second, we also report on the design of VisQA, and a goal-oriented evaluation of VisQA targeting the analysis of a model decision process from multiple experts, providing evidence that it makes the inner workings of models accessible to users.
-
-
+The Robotics community has started to heavily rely on increasingly realistic 3D simulators for large-scale training of robots on massive amounts of data. But once robots are deployed in the real-world, the simulation gap, as well as changes in the real-world (e.g. lights, objects displacements) lead to errors. In this paper, we introduce SIM2REALVIZ, a visual analytics tool to assist experts in understanding and reducing this gap for robot ego-pose estimation tasks, i. e.  the estimation of a robot’s position using trained models.SIM2REALVIZ displays details of a given model and the performance of its instances in both simulation and real-world. Experts can identify environment differences that impact model predictions at a given location and explore through direct interactions with the model hypothesis to fix it. We detail the design of the tool, and case studies related to the exploit of the regression to the mean bias and how it can be addressed, and how models are perturbed by vanishing landmarks such as bikes.
 
 
 

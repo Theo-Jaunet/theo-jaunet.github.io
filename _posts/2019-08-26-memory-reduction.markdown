@@ -7,7 +7,7 @@ description: "We built Doom player AI using Deep Reinforcement learning. While p
 img: memred.png
 fig-caption: # Add figcaption (optional)
 authors: "Théo Jaunet, Romain Vuillemot, Christian Wolf"
-conf: VISXAI 2019
+conf: VISXAI @ IEEE Vis 2019
 demo: "https://theo-jaunet.github.io/MemoryReduction/"
 teaser: memred_teaser.png
 git: https://github.com/Theo-Jaunet/MemoryReduction
